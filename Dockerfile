@@ -5,6 +5,9 @@
 # Pull base image.
 FROM ubuntu:14.04
 
+# Update sources.list
+COPY sources.list /etc/apt/sources.list
+
 # Install Java.
 RUN \
   apt-get -yqq update && \
