@@ -6,7 +6,7 @@ mvn -v
 
 # build
 cd /app
-mvn -q package
+echo "mvn -q package"
 
 # copy .war file
 
